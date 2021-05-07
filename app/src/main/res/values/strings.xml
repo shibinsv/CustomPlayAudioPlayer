@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Custom Play</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="song_name">Song name</string>
+    <string name="albumpicture">albumPicture</string>
+    <string name="now_playing">Playing now</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="repeat">Repeat</string>
+    <string name="shuffleOff">Shuffle : OFF</string>
+    <string name="repeatOff">Repeat : OFF</string>
+    <string name="shuffleOn">Shuffle : ON</string>
+    <string name="repeatOn">Repeat : ON</string>
+</resources>

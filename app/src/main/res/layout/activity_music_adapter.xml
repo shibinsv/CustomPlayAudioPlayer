@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/musicImage"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:padding="5sp"
+        android:contentDescription="@string/albumpicture" />
+
+    <TextView
+        android:id="@+id/musicFileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/song_name"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10sp"
+        android:layout_toEndOf="@+id/musicImage"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@+id/musicImage"
+        android:layout_marginLeft="10sp" />
+
+</RelativeLayout>
